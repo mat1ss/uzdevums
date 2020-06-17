@@ -10,7 +10,9 @@ s_datums - datums, kad pabeigta tehniskā apskate un TL ir izbraucis no TA lauku
 Uzdevums ir izveidot vizuālu web lapu, kurā tiek atrādīti norīkotie transportlīdzekļi TA laukumā, un to sadalījums pa līnijām.
 Norādot datumu un laiku jāatfiltrē tie ieraksti, kuri ir pa vidu starp <datums> un <s-datums>. 
 Ja lauks <s-datums> ir null, tad tāds TL vēl ir TA laukumā, jāuzskata ka vērtība ir lielāka par norādīto datumu un laiku. 
-Vienā līnijā esošie TL, jāsakārto pieaugoši pēc ID vērtības.
+Vienā līnijā esošie TL, jāsakārto pieaugoši pēc ID vērtības. 
+Noklikšķinot uz transportlīdzekļa numura, jāparāda paziņojums "Vai izņemt TL <numurs> no līnijas?", apstiprinājuma gadijumā konkrētais TL "jāizņem" no saraksta un jāpārlādē dati. Izņemt var tikai tādu TL, kam lauks s_datums ir null. 
+Tā kā dati ir statiski, tad izņemšana var būt virtuāla, pietiek ar paziņojumu Snackbar, ka TL izņemts.
 Apskašu līniju skaits ir 12
 Datu atjaunošanai jānotiek bez lapas pārlādes. 
 Uzdevuma izpildei vēlamā tehnoloģija ir React Js, Angular 8, vai Vue js.
