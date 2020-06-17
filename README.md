@@ -1,10 +1,10 @@
 # uzdevums
 Json dati failā db.json sastāv no transportlīdzekļu saraksta, kas norīkoti uz tehniskās apskates(TA) līnijām apskašu laukumā.
 Viena ieraksta rinda sastāv no 5 laukiem, kur:
-id - Ieraksta identifikators                            
-numurs - norīkotās līnijas numurs
-rn - transportlīdzekļa numurs(TL)
-datums - datums, kad norīkots līnijā
+id - Ieraksta identifikators;                            
+numurs - norīkotās līnijas numurs;
+rn - transportlīdzekļa numurs(TL);
+datums - datums, kad norīkots līnijā;
 s_datums - datums, kad pabeigta tehniskā apskate un TL ir izbraucis no TA laukuma.
 
 Uzdevums ir izveidot vizuālu web lapu, kurā tiek atrādīti norīkotie transportlīdzekļi TA laukumā, un to sadalījums pa līnijām.
